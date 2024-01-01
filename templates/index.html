@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    {% if 'username' in session %}
+    <p>Welcome, {{ session['username'] }}! (<a href="{{ url_for('logout') }}">Logout</a>)</p>
+{% else %}
+    <p>You are not logged in. (<a href="{{ url_for('login') }}">Login</a>)</p>
+{% endif %}
+    <header>
+        <h1>Task Management System</h1>
+    </header>
+
+    <div id="taskForm">
+        <h2>Add New Task</h2>
+        <input type="text" id="taskName" placeholder="Task Name">
+        <button onclick="addTask()">+ Add Task</button>
+        <button onclick="displayTasks()">Display Existing Tasks</button>
+    </div>
+    <div id="taskList"></div>
+
+</body>
+<script src="../static/script.js"></script>
+</html>
