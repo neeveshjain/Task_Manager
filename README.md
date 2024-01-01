@@ -1,6 +1,6 @@
 # Task Management System
 
-![Project Logo](path/to/logo.png) <!-- Add your project logo here -->
+![Project Logo](reso/logo.jpeg) <!-- Add your project logo here -->
 
 ## Table of Contents
 
