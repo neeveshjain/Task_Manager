@@ -11,12 +11,6 @@
 - [Backend](#backend)
 - [Frontend](#frontend)
 - [Database](#database)
-- [Security](#security)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
